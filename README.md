@@ -4,36 +4,13 @@
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-#### Definition
-A neural network regression model is a machine learning model used to predict continuous numerical outputs by learning the relationship between input features and target values from a dataset.
+A company has collected a dataset containing various input features and corresponding numerical output values related to a specific problem (such as sales, price, or demand prediction). The relationship between the input variables and output is complex and cannot be accurately modeled using simple statistical methods.
 
-#### Architecture of Neural Network
-It consists of three main layers:
-Input layer (receives features)
+To solve this problem, the company wants to develop a neural network-based regression model that can learn patterns from the existing data. The model should be trained using historical data so that it can understand how input features influence the output values.
 
-One or more hidden layers (process information)
+Once trained, the model will be used to predict continuous numerical outputs for new, unseen data points. This will help the company make better decisions based on accurate predictions.
 
-Output layer (produces a single numeric value)
-Each neuron is connected with weights and biases.
-
-#### Working – Forward Propagation
-In forward propagation, input data passes through the network layer by layer.
-Each neuron computes a weighted sum of inputs and applies an activation function to produce an output.
-
-#### Loss Function in Regression
-The predicted output is compared with the actual output using a loss function such as Mean Squared Error (MSE), which measures the difference between predicted and true values.
-
-#### Backpropagation and Optimization
-The error is propagated backward through the network to update weights and biases.
-Optimization algorithms like Gradient Descent are used to minimize the loss and improve model accuracy.
-
-#### Training Process
-The model is trained over multiple iterations called epochs.
-In each epoch, forward propagation, loss calculation, and backpropagation are repeated until the model learns the pattern in data.
-
-#### Applications and Performance Evaluation
-Neural network regression is used in problems like price prediction, forecasting, and demand estimation.
-Model performance is evaluated using metrics such as MSE, RMSE, and R² score.
+The goal is to minimize prediction error and improve the model’s performance using appropriate training techniques such as backpropagation and optimization algorithms.
 ## Neural Network Model
 <img width="1291" height="946" alt="image" src="https://github.com/user-attachments/assets/6701704a-c1d9-4b00-9b8c-4c922ecd306e" />
 
